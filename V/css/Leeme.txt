@@ -1,0 +1,10 @@
+compra = son los estilo que añadi para agregar un diseño personal
+
+jquery.raty = con los estilos para las estrellitas
+
+bootstrap.min = estilos de bootstrap
+
+noti, noticore = son los estilos para las notificaciones
+
+custom , reset y style = son los estilos de la barra lateral(menu) izquierda,son los estilos para casi todo el carrito, pero el archivo principal es CUSTOM 
+

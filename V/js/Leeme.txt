@@ -1,0 +1,11 @@
+bootstrap.min y jquery == son para las animaciones de bootstrap
+
+jquery.nicescroll.min  , velocity , modernizr ,main== son para las animaciones para el efecto lightbox para las fotos 
+
+jquery.raty == para las animaciones de las estrellitas
+
+datos ==> para las operaciones(mantenimientos,ect)
+
+custom ==> son para las animaciones de la barra lateral izquierda(menu)
+
+alerti ==> son para las notificaciones
