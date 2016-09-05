@@ -1,5 +1,5 @@
 <?php
-require 'PHPMailer/PHPMailerAutoload.php';
+require '../V/componentes/PHPMailer/PHPMailerAutoload.php';
 
 class conexion
 {
@@ -22,7 +22,7 @@ class conexion
 			//el valor que esta en el primer while en la cual lo usaremos en el 2do while
            $consulta_subcat = $con->query("select subcat_cod,subcat_nom from sub_categoria where cat_cod='$datos_cat[0]'");
 		   //mostramos la imagen y el nombre de categoria
-           echo "<li><a><img src='img/Categorias/$datos_cat[0].png'><h4>$datos_cat[1]</h4><div class='flecha'><span class='fa fa-chevron-down'></span></div></a>
+           echo "<li style='cursor:pointer'><a><img src='img/Categorias/$datos_cat[0].png'><h4>$datos_cat[1]</h4><div class='flecha'><span class='fa fa-chevron-down'></span></div></a>
                  <ul class='nav child_menu' style='display: none'>";
            //obtenemos los datos de las sub_categoria
 		   while($datos_subcat = $consulta_subcat->fetch_array())

@@ -24,7 +24,7 @@
         ?>
 
     </head>
-    <body class="nav-md">  <!-- LLAMAMOS A LA FUNCION VIEWDATA PARA QUE NOS CARGUE DATOS EN LA TABLA -->
+    <body class="nav-md" onload="compra_cantidad();">  <!-- LLAMAMOS A LA FUNCION VIEWDATA PARA QUE NOS CARGUE DATOS EN LA TABLA -->
         <div class="container body">
             <div class="main_container">
                 <div class="col-md-3 left_col" id="menu">  <!-- LA COLUMNA DE OPCIONES TENDRA SOLO 3 COLUMNAS EN BOOTSTRAP -->
