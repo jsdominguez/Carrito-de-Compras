@@ -8,3 +8,5 @@
  <link rel='stylesheet' href='css/animate.css'>
  <link rel='stylesheet' href='css/noti.css'>
  <link rel='stylesheet' href='css/noticore.css'>
+<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+ 

@@ -133,9 +133,10 @@ $("#finalcompra").click(function(){
 		 $("#finalcompra").show();
 	$("#cancelpaypal").show();
 		$("#mymodal").modal("hide");
+		swal("Genial !", " Su compra ha finalizado ", "success")
 		peticion_async();
 		compra_cantidad();
-		alertify.success('Fue enviado al carrito');
+		$("#vercompras").slideUp("slow");
 	});
 
 });

@@ -3,3 +3,4 @@
 <script src='js/bootstrap.min.js'></script>
 <script src='js/custom.js'></script>
 <script src='js/alerti.js'></script>
+<script src="js/sweetalert.min.js"></script>
